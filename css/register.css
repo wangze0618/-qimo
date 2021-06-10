@@ -1,0 +1,114 @@
+.w {
+  width: 1200px;
+  margin: 0 auto;
+}
+header {
+  padding-top: 16px;
+  height: 82px;
+  border-bottom: 2px solid #b1191a;
+}
+.main {
+  margin-top: 20px;
+  height: 523px;
+  border: 1px solid #dfdfdf;
+}
+.main h3 {
+  height: 42px;
+  line-height: 42px;
+  background-color: #ececec;
+  border-bottom: 1px solid #dfdfdf;
+}
+.main h3 span:nth-of-type(1) {
+  float: left;
+  padding-left: 12px;
+  font-size: 16px;
+}
+.main h3 span:nth-of-type(2) {
+  float: right;
+  padding-right: 12px;
+  font-size: 14px;
+}
+.main h3 span:nth-of-type(2) a {
+  color: #c81623;
+}
+.reg-form {
+  width: 600px;
+  margin: 50px auto 0;
+  position: relative;
+}
+.reg-form .error {
+  color: #df3033;
+}
+.reg-form .success {
+  color: green;
+}
+.reg-form input {
+  width: 242px;
+  height: 37px;
+  border: 1px solid #ccc;
+  margin: 10px 0;
+}
+.reg-form label {
+  display: inline-block;
+  width: 88px;
+  text-align: right;
+}
+.reg-form .error_icon,
+.reg-form .success_icon {
+  width: 20px;
+  height: 20px;
+  display: inline-block;
+  vertical-align: middle;
+  margin: -3px 3px 0 10px;
+  background: url(/images/error.png) no-repeat center;
+}
+.reg-form .success_icon {
+  background: url(/images/success.png) no-repeat center;
+}
+.reg-form .login_li {
+  margin-top: 40px;
+  padding-left: 110px;
+}
+.reg-form form > ul > li:last-child input {
+  display: block;
+  width: 200px;
+  height: 35px;
+  line-height: 35px;
+  color: #fff;
+  text-align: center;
+  font-size: 14px;
+  background-color: #c81623;
+}
+.safe {
+  padding-left: 175px;
+}
+.safe i {
+  padding: 0 10px;
+  color: white;
+}
+.safe i:nth-child(1) {
+  background-color: red;
+}
+.safe i:nth-child(2) {
+  background-color: #f79100;
+}
+.safe i:nth-child(3) {
+  background-color: #40b83f;
+}
+.aggre {
+  padding-left: 115px;
+}
+.aggre input {
+  width: initial;
+  height: initial;
+  margin-right: 5px;
+  vertical-align: middle;
+  margin-bottom: 12px;
+}
+.aggre a {
+  color: #1ba1e6;
+}
+.mod_right {
+  margin-top: 20px;
+  background-color: #fff;
+}
