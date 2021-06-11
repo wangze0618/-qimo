@@ -385,3 +385,27 @@
         }
     }
 }
+
+.fixed {
+    width: 100%;
+    position: fixed;
+    top: 0;
+    left: 0;
+    background: -webkit-linear-gradient(top, #c81623, #b1191a);
+    filter: blur(0px);
+    z-index: 100;
+
+    ul {
+        display: flex;
+        justify-content: center;
+
+        li {
+            min-width: 120px;
+
+            a {
+                color: #fff;
+                text-shadow: rgb(151, 151, 151) 1px 1px 6px;
+            }
+        }
+    }
+}

@@ -184,6 +184,16 @@
   line-height: 31px;
   color: #fff;
 }
+.nav .nav_box > #navitems ul > li {
+  float: left;
+  margin-right: 20px;
+  font-size: 16px;
+  line-height: 45px;
+}
+.nav .nav_box > #navitems ul > li > a {
+  padding: 0 20px;
+  display: block;
+}
 .nav .nav_box > .navitems ul > li {
   float: left;
   margin-right: 20px;
