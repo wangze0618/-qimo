@@ -1,0 +1,137 @@
+body {
+  background-color: #f6f6f6;
+  -webkit-font-smoothing: antialiased;
+}
+.dd {
+  height: 100%;
+  height: initial !important;
+}
+#banner {
+  width: 800px;
+  height: 410px;
+  position: relative;
+  overflow: hidden;
+  float: left;
+  margin: 5px 5px;
+}
+#banner_pic li {
+  width: 800px;
+  float: left;
+}
+#banner_pic li > img {
+  width: 100%;
+}
+#left,
+#right {
+  width: 30px;
+  height: 60px;
+  background-color: #c81623;
+  opacity: 0.8;
+  position: absolute;
+  top: 200px;
+  line-height: 60px;
+  text-align: center;
+  font-size: 24px;
+  color: #fff;
+}
+#left {
+  left: 0;
+  display: none;
+}
+#right {
+  right: 0;
+  display: none;
+}
+ol {
+  position: absolute;
+  bottom: 10px;
+  left: 50%;
+  transform: translateX(-50%);
+  background-color: rgba(223, 223, 223, 0.4);
+  border-radius: 15px;
+  padding: 5px 2px;
+}
+ol li {
+  width: 15px;
+  height: 15px;
+  float: left;
+  border-radius: 50%;
+  margin-right: 5px;
+  background-color: white;
+}
+ol li:nth-child(1) {
+  margin-left: 5px;
+}
+.yuandian_bg {
+  background-color: red;
+}
+/* 大图轮播样式结束*/
+.main-1 {
+  margin-top: 430px;
+}
+.main-1 .market-head {
+  height: 35px;
+  background: url(../images/market-head.png) repeat-x 0 16px;
+  overflow: hidden;
+  text-align: center;
+}
+.main-1 .market-head h3 {
+  display: inline;
+  line-height: 35px;
+  font-weight: 400;
+  font-size: 24px;
+  color: #333;
+  background-color: #f6f6f6;
+  padding: 0 50px;
+  padding-bottom: 2px;
+}
+.main-1 .goods li + li {
+  margin-left: 14px;
+}
+.main-1 .goods li {
+  float: left;
+  width: 390px;
+  background-color: #fff;
+  box-shadow: #bbbbbb 1px 1px 3px 0px;
+}
+.main-1 .goods li .top-a {
+  line-height: 16px;
+}
+.main-1 .goods li .top-a img {
+  display: inline-block;
+  width: 150px;
+  margin-right: 5px;
+}
+.main-1 .goods li .top-a h3 {
+  display: inline-block;
+  width: 200px;
+}
+.main-1 .goods li .bottom-div {
+  background-color: pink;
+  text-align: center;
+  height: 50px;
+  line-height: 50px;
+  color: #fff;
+  font-size: 16px;
+}
+.main-1 .goods li .bottom-div .bottom-text {
+  float: left;
+  width: 50%;
+  background-color: #f75f3c;
+  position: relative;
+}
+.main-1 .goods li .bottom-div .bottom-text::before {
+  content: "";
+  position: absolute;
+  display: block;
+  border: 5px solid;
+  border-color: #fff transparent transparent #fff;
+  top: 0;
+  left: 0;
+}
+.main-1 .goods li .bottom-div .bottom-a {
+  color: #fff;
+  float: left;
+  width: 50%;
+  background-color: #ffa133;
+}
