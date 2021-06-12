@@ -135,3 +135,93 @@ ol li:nth-child(1) {
   width: 50%;
   background-color: #ffa133;
 }
+.red-font {
+  color: red;
+  font-size: 18px;
+  font-weight: 800;
+}
+.main-2 {
+  margin-top: 20px;
+  background-color: #fff;
+  height: 250px;
+}
+.main-2 ul {
+  display: flex;
+  position: relative;
+}
+.main-2 ul::after {
+  position: absolute;
+  bottom: 4px;
+  left: 0;
+  content: '';
+  display: block;
+  height: 10px;
+  width: 1200px;
+  background: url(../images/chaoshi_discount_line.png) 0px 0px no-repeat;
+}
+.main-2 ul li {
+  width: 164px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 15px 14px 0 19px;
+  border-right: 1px solid #e6e6e6;
+  flex: 1;
+}
+.main-2 ul li p + p {
+  margin-bottom: 10px;
+}
+.main-2 ul li p:nth-child(n+2) {
+  align-self: flex-start;
+}
+.main-2 ul li p:nth-child(n+4) {
+  color: red;
+  font-size: 18px;
+  font-weight: 800;
+}
+.main-2 .salemore img {
+  min-width: 200px;
+  min-height: 260px;
+  margin-left: -20px;
+  margin-right: -13px;
+}
+.main-1f {
+  margin-top: 20px;
+}
+.img-center {
+  text-align: center;
+}
+.milk-head {
+  margin-bottom: 20px;
+}
+.main-3 {
+  display: flex;
+  background-color: #fff;
+}
+.main-3 ul {
+  display: flex;
+  flex-wrap: wrap;
+}
+.main-3 ul li {
+  border-left: 1px solid #f2f2f2;
+  border-bottom: 1px solid #f2f2f2;
+}
+.main-3 ul li {
+  flex: 20%;
+  display: flex;
+  padding: 20px;
+}
+.main-3 ul li a {
+  text-align: center;
+}
+.main-3 ul li a p {
+  text-align: left;
+}
+.main-3 ul li a p:nth-child(n+2) {
+  margin-top: 15px;
+}
+.main-3 ul li a p:nth-child(3) {
+  color: red;
+  font-size: 18px;
+  font-weight: 800;
+}
