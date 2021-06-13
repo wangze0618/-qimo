@@ -209,7 +209,7 @@ ol li:nth-child(1) {
 .main-3 ul li {
   flex: 20%;
   display: flex;
-  padding: 20px;
+  padding: 10px 20px 0px 20px;
 }
 .main-3 ul li a {
   text-align: center;

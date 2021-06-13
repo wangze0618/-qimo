@@ -1,0 +1,62 @@
+header {
+  padding-top: 16px;
+  border-bottom: 2px solid #b1191a;
+}
+.login-bar {
+  margin-top: 20px;
+  border: 1px solid #dfdfdf;
+  border-bottom: none;
+}
+.login-bar h3 {
+  height: 42px;
+  line-height: 42px;
+  background-color: #ececec;
+  padding-left: 16px;
+  font-size: 16px;
+}
+.main-login {
+  display: flex;
+  justify-content: space-around;
+  border: 1px solid #dfdfdf;
+}
+.main-login .login-main {
+  padding-top: 100px;
+  width: 350px;
+  font-size: 18px;
+  padding-right: 20px;
+  margin-left: -220px;
+}
+.main-login .login-main ul {
+  display: flex;
+  flex-direction: column;
+}
+.main-login .login-main ul li {
+  height: 40px;
+  line-height: 40px;
+  text-align: right;
+  margin: 10px 0;
+}
+.main-login .login-main ul li label {
+  font-size: 12px;
+}
+.main-login .login-main ul li input {
+  border: 1px solid #ccc;
+  width: 200px;
+  height: 40px;
+  padding-left: 5px;
+  border-radius: 8px;
+}
+.main-login .login-main ul li:nth-of-type(4) a {
+  color: #fff;
+  text-align: center;
+  display: inline-block;
+  height: 40px;
+  width: 100px;
+  margin-right: 100px;
+  border-radius: 8px;
+  background-color: #b1191a;
+  transition: all 8s ease-in-out;
+}
+.main-login .login-main ul li:nth-of-type(4) a:hover {
+  transform: rotate(18000deg);
+}
