@@ -135,7 +135,7 @@
                         <a href="#">美妆馆</a>
                     </li>
                     <li>
-                        <a href="#">传智超市</a>
+                        <a href="./erji.html">传智超市</a>
                     </li>
                     <li>
                         <a href="#">全球购</a>
@@ -170,15 +170,15 @@
                 </ul>
                 <ul class="lists">
                     <li id="lists1">
-                        <a href="#"></a>
+                        <a href="javascript:;" @click="prev()"></a>
                     </li>
                     <li id="lists2">
-                        <a href=" # "></a>
+                        <a href="javascript:;" @click="next()"></a>
                     </li>
                 </ul>
                 <ul>
                     <li>
-                        <a href="# "><img src="/upload/focus1.png "></a>
+                        <a href="#"><img :src="imgList[index]" @mouseleave="autoPlay()"></a>
                     </li>
                 </ul>
             </div>
@@ -557,7 +557,9 @@
             </div>
         </div>
     </footer>
-    <script src="./js/index.js"></script>
+    <!-- <script src="./js/index.js"></script> -->
+    <script src="./js/vue.js"></script>
+    <script src="./js/indexBanner.js"></script>
 </body>
 
 </html>

@@ -1,3 +1,5 @@
+@import "common.less";
+
 .clearfix::after {
     content: "";
     display: block;
@@ -15,6 +17,10 @@
     color: red;
 }
 
+.redd {
+    background-color: @themeColor  !important;
+}
+
 .main {
     width: 980px;
     height: 455px;
@@ -26,6 +32,12 @@
         height: 455px;
         width: 721px;
         position: relative;
+
+
+        img {
+            width: 721px;
+            height: 455px;
+        }
 
         .footList {
             position: absolute;

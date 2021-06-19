@@ -1,4 +1,5 @@
 window.onload = function () {
+    // 吸顶效果
     window.onscroll = function () {
         var scrolltop = window.pageYOffset || document.body.scrollTop || document.documentElement.scrollTop;
         var navitems = document.getElementById('navitems');

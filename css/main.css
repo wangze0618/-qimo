@@ -4,9 +4,6 @@
   list-style: none;
   box-sizing: border-box;
 }
-a:hover {
-  color: white;
-}
 .red {
   color: red;
   font-size: 24px;
