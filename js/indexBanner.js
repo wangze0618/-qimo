@@ -27,18 +27,19 @@ window.onload = function () {
             index: 0,
             that: this,
         },
-
+        mounted: function () {
+            this.autoPlay();//需要触发的函数
+        },
         methods: {
-            // 上一张
+            // 鼠标单击切换上一张
             prev() {
                 if (this.index > 0) {
                     this.index--
                 } else {
                     this.index = this.imgList.length - 1
                 }
-
             },
-            // 下一张
+            // 鼠标单击切换下一张
             next() {
                 if (this.index < this.imgList.length - 1) {
                     this.index++
@@ -47,18 +48,27 @@ window.onload = function () {
                 }
             },
             autoPlay() {
+                //每隔3秒切换图片 (大图轮播)
                 function auto() {
                     if (vm.index < vm.imgList.length - 1) {
                         vm.index++
-                        if (vm.index == 4) {
-                            vm.index = 0
-                        }
+                    } else if (vm.index == vm.imgList.length - 1) {
+                        vm.index = 0
                     }
-
-
                 }
-                timer = setInterval(auto, 3000)
+
+                timer = setInterval(auto, 3500)
             },
+            stopPlay() {
+                // 鼠标移入停止播放
+                clearInterval(timer)
+            },
+            againPlay() {
+                // 鼠标移出重新播放
+                // 怎么在这里调用autoPlay()方法里的auto()函数
+                this.$options.methods.autoPlay()
+            }
         }
-    })
+    }
+    )
 }

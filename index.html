@@ -178,7 +178,7 @@
                 </ul>
                 <ul>
                     <li>
-                        <a href="#"><img :src="imgList[index]" @mouseleave="autoPlay()"></a>
+                        <a href="#"><img :src="imgList[index]" @mouseover='stopPlay()' @mouseleave='againPlay()'></a>
                     </li>
                 </ul>
             </div>

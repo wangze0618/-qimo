@@ -604,4 +604,9 @@
 }
 .fixed ul li a {
   color: #fff;
+  text-align: center;
+  transition: all 0.3s ease-in-out;
+}
+.fixed ul li a:hover {
+  background-color: rgba(200, 22, 35, 0.826);
 }

@@ -404,9 +404,7 @@
     top: 0;
     left: 0;
     backdrop-filter: saturate(180%) blur(20px);
-    // background: -webkit-linear-gradient(top, #c81623, #b1191a);
     background-color: rgba(0, 0, 0, 0.726);
-    // filter: blur(0px);
     z-index: 100;
 
     ul {
@@ -418,6 +416,13 @@
 
             a {
                 color: #fff;
+                text-align: center;
+                transition: all .3s ease-in-out;
+
+                &:hover {
+                    background-color: rgba(200, 22, 35, 0.826);
+                }
+
                 // text-shadow: rgb(151, 151, 151) 1px 1px 6px;
             }
         }
