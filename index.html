@@ -162,11 +162,8 @@
         <div class="main">
             <div class="focus">
                 <ul class="footList clearfix">
-                    <li></li>
-                    <li></li>
-                    <li></li>
-                    <li></li>
-                    <li></li>
+                    <li v-for="(item, indexx) in imgList" :key="indexx" :class="{redd:indexx===index}">
+                    </li>
                 </ul>
                 <ul class="lists">
                     <li id="lists1">
@@ -558,7 +555,7 @@
         </div>
     </footer>
     <!-- <script src="./js/index.js"></script> -->
-    <script src="./js/vue.js"></script>
+    <script src="./js/vue.min.js"></script>
     <script src="./js/indexBanner.js"></script>
 </body>
 
