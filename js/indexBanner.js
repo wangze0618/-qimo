@@ -16,11 +16,11 @@ window.onload = function () {
         el: '.focus',
         data: {
             imgList: [
-                "../upload/1.jpg",
-                "../upload/2.jpg",
-                "../upload/3.jpg",
-                "../upload/4.jpg",
-                "../upload/5.jpg"],
+                "./upload/1.jpg",
+                "./upload/2.jpg",
+                "./upload/3.jpg",
+                "./upload/4.jpg",
+                "./upload/5.jpg"],
             index: 0,
             indexx: 0,
         },
