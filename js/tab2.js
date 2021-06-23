@@ -46,8 +46,8 @@ window.onload = function () {
         (function (i) {
             var sltimg = slt_img[i];
             sltimg.onmouseover = function () {
-                bigpic[0].src = "./upload/双肩包" + (i + 1) + ".jpg";
-                smallpic[0].src = "./upload/双肩包" + (i + 1) + ".jpg";
+                bigpic[0].src = "./upload/sjb" + (i + 1) + ".jpg";
+                smallpic[0].src = "./upload/sjb" + (i + 1) + ".jpg";
             };
         })(i);
     }

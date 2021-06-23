@@ -100,6 +100,7 @@ ol li:nth-child(1) {
 .main-1 .goods li .top-a img {
   display: inline-block;
   width: 150px;
+  height: 150px;
   margin-right: 5px;
 }
 .main-1 .goods li .top-a h3 {
@@ -167,6 +168,10 @@ ol li:nth-child(1) {
   padding: 15px 14px 0 19px;
   border-right: 1px solid #e6e6e6;
   flex: 1;
+}
+.main-2 ul li a img {
+  height: 130px;
+  width: 130px;
 }
 .main-2 ul li p + p {
   margin-bottom: 10px;
